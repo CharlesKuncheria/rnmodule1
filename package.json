@@ -1,0 +1,19 @@
+{
+  "name": "rnmodule1",
+  "version": "1.0.0",
+  "description": "react native feature 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesKuncheria/rnmodule1.git"
+  },
+  "author": "CK <charles.kuncheria@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharlesKuncheria/rnmodule1/issues"
+  },
+  "homepage": "https://github.com/CharlesKuncheria/rnmodule1#readme"
+}
