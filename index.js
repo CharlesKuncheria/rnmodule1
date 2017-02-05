@@ -1,3 +1,16 @@
+var request = require('request');
+let data = 'hello';
+
+var options = {
+  url: 'http://api.github.com/users/charleskuncheria',
+  headers: {
+    'User-Agent': 'request'
+  }
+};
+
 module.exports = {
-    msg: 'Hello World from module 1'
+  msg: data,
+  req: function (cb) {
+    request(options, cb);
+  }
 };

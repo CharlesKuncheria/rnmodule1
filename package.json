@@ -1,6 +1,6 @@
 {
   "name": "rnmodule1",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "react native feature 1",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/CharlesKuncheria/rnmodule1/issues"
   },
-  "homepage": "https://github.com/CharlesKuncheria/rnmodule1#readme"
+  "homepage": "https://github.com/CharlesKuncheria/rnmodule1#readme",
+  "devDependencies": {
+    "gulp": "3.9.1"
+  },
+  "dependencies": {
+    "request": "2.79.0"
+  }
 }
